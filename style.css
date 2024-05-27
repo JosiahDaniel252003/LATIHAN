@@ -1,0 +1,80 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("asset/background.jpg"); /* Updated path to the image */
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    padding: 10px 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    transition: all 0.3s;
+}
+
+.navbar a:hover {
+    border-color: #ffffff;
+}
+
+.settings-icon {
+    font-size: 24px;
+    cursor: pointer;
+    color:#fff;
+    
+}
+
+.center-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+.center-content h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.center-content p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.daftar-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.daftar-button:hover {
+    background-color: #444;
+}
